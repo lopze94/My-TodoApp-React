@@ -1,0 +1,19 @@
+.delete{
+    color: #aaa;
+    float: right;
+    opacity:0;
+    transition:opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -webkit-transition: opacity 0.5s linear;
+}
+
+.delete:hover{
+    cursor: pointer;
+}
+
+.title:hover .delete {
+   opacity: 1;
+   transition:opacity .5s linear;
+   -moz-transition: opacity .5s linear;
+   -webkit-transition: opacity .5s linear;
+}
